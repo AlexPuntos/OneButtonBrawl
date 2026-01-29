@@ -16,5 +16,5 @@ Press spacebar to throw a punch. Punching your oponent will lower their health, 
 ### Blocking
 Holding spacebar will block an attack the enemy throws at you, negating half of the damage from their attack. If you time your block right, you can negate all damage from the attack and stun them temporarily to land some easy blows.
 
-### ENEMIES
+### Enemies
 Enemies will attempt to attack the player with drawn out animations that telegraph their attack. Each has a health bar. When HP reaches 0, they are knocked out and a new enemy appears. Players regain a bit of health after knocking out an enemy.
