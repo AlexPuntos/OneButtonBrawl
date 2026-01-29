@@ -1,23 +1,20 @@
-# OneButtonRevolver
-A game where you have a revolver and you only have one button to use it.
+# OneButtonBrawl
+A game where you are a streetfighter and have one one option: using your fists.
 
-Pitch: You have a revolver and are crawling through a tunnel filled robots. Walk through the tunnels, find a robot, and shoot it dead!
+**Pitch:** You are a streetfighter picking all kinds of fights in a dingy alleyway. Gangers, drunkards, the homeless: you'll take whoever you fight on and you'll win it big. 
+**The Goal:** Knock out as many opponents as you can and beat your high-score!
 
-Controls:
-- SPACE BAR (Tap): Shoot
-- SPACE BAR (Hold): Take Cover and Reload
+### Controls:
+- SPACE BAR (Tap): Throw a Punch
+- SPACE BAR (Hold): Block an Attack
 
 That's it. 
 
-SHOOTING
-When you are not holding space bar, you stand outside of cover and have a reticle that sways around the screen wildly. When you press space while the reticle is over an enemy, you shoot them; otherwise, you miss. Time your shots while they hover over an enemy to eliminate them!
-You have only 6 rounds in your revolver. Once you exhaust your ammo, you must reload.
+### Throwing Punches
+Press spacebar to throw a punch. Punching your oponent will lower their health, and eventually knock them out. 
 
-RELOADING
-When you hold spacebar, your screen moves to the side as it puts you into cover and enemies are unable to attack you. 
-You must hold the reload button for as long as it takes to reload each bullet into the cylinder.
+### Blocking
+Holding spacebar will block an attack the enemy throws at you, negating half of the damage from their attack. If you time your block right, you can negate all damage from the attack and stun them temporarily to land some easy blows.
 
-ENEMIES
-Enemies cannot shoot you while in cover.
-
-UTILIZATION: A lot of dray raycast, simple conditionals statements, and Unity Animator to move the gun and your camera in and out of cover.
+### ENEMIES
+Enemies will attempt to attack the player with drawn out animations that telegraph their attack. Each has a health bar. When HP reaches 0, they are knocked out and a new enemy appears. Players regain a bit of health after knocking out an enemy.
